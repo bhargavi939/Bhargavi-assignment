@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoSuite" class="navigator-link">
+              <span class="suite-name border-passed">DemoSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoSuite" class="navigator-link ">
+                    <span>C:\wingify\bhargavi\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoSuite" class="hide-methods passed suite-DemoSuite"> (hide)</a> <!-- hide-methods passed suite-DemoSuite -->
+                      <a href="#" panel-name="suite-DemoSuite" class="show-methods passed suite-DemoSuite"> (show)</a> <!-- show-methods passed suite-DemoSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamDiaryPageTest" class="method navigator-link" hash-for-method="testAllRowsAreFilled">testAllRowsAreFilled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamsTotalTest" class="method navigator-link" hash-for-method="testBadDreamsCount">testBadDreamsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamDiaryPageTest" class="method navigator-link" hash-for-method="testDreamTypesAreValid">testDreamTypesAreValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamsTotalTest" class="method navigator-link" hash-for-method="testGoodDreamsCount">testGoodDreamsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="testLoaderDisappears">testLoaderDisappears</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="testLoaderIsVisible">testLoaderIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="testMainContentIsVisible">testMainContentIsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="testMyDreamsButtonIsClickable">testMyDreamsButtonIsClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="testNewTabsOpenOnClick">testNewTabsOpenOnClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamsTotalTest" class="method navigator-link" hash-for-method="testRecurringDreamNames">testRecurringDreamNames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamsTotalTest" class="method navigator-link" hash-for-method="testRecurringDreamsCount">testRecurringDreamsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamDiaryPageTest" class="method navigator-link" hash-for-method="testRowCount">testRowCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoSuite" title="tests.DreamsTotalTest" class="method navigator-link" hash-for-method="testTotalDreamsCount">testTotalDreamsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoSuite" class="panel DemoSuite">
+          <div class="suite-DemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DreamsTotalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBadDreamsCount">
+                  </a> <!-- testBadDreamsCount -->
+                  <span class="method-name">testBadDreamsCount</span>
+                  <em>
+(Verify Bad Dreams count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoodDreamsCount">
+                  </a> <!-- testGoodDreamsCount -->
+                  <span class="method-name">testGoodDreamsCount</span>
+                  <em>
+(Verify Good Dreams count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRecurringDreamNames">
+                  </a> <!-- testRecurringDreamNames -->
+                  <span class="method-name">testRecurringDreamNames</span>
+                  <em>
+(Verify Recurring Dream Names)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRecurringDreamsCount">
+                  </a> <!-- testRecurringDreamsCount -->
+                  <span class="method-name">testRecurringDreamsCount</span>
+                  <em>
+(Verify Recurring Dreams count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalDreamsCount">
+                  </a> <!-- testTotalDreamsCount -->
+                  <span class="method-name">testTotalDreamsCount</span>
+                  <em>
+(Verify Total Dreams count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoSuite-class-passed -->
+          <div class="suite-DemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DreamDiaryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllRowsAreFilled">
+                  </a> <!-- testAllRowsAreFilled -->
+                  <span class="method-name">testAllRowsAreFilled</span>
+                  <em>
+(Each row has 3 filled columns.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDreamTypesAreValid">
+                  </a> <!-- testDreamTypesAreValid -->
+                  <span class="method-name">testDreamTypesAreValid</span>
+                  <em>
+(Dream types are only Good or Bad.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRowCount">
+                  </a> <!-- testRowCount -->
+                  <span class="method-name">testRowCount</span>
+                  <em>
+(Validate exactly 10 dream entries.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoSuite-class-passed -->
+          <div class="suite-DemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoaderDisappears">
+                  </a> <!-- testLoaderDisappears -->
+                  <span class="method-name">testLoaderDisappears</span>
+                  <em>
+(Verify loading animation disappears after ~3 seconds.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoaderIsVisible">
+                  </a> <!-- testLoaderIsVisible -->
+                  <span class="method-name">testLoaderIsVisible</span>
+                  <em>
+(Verify loading animation appears on page load.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMainContentIsVisible">
+                  </a> <!-- testMainContentIsVisible -->
+                  <span class="method-name">testMainContentIsVisible</span>
+                  <em>
+(Verify main content is visible after loader disappears.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyDreamsButtonIsClickable">
+                  </a> <!-- testMyDreamsButtonIsClickable -->
+                  <span class="method-name">testMyDreamsButtonIsClickable</span>
+                  <em>
+(Verify 'My Dreams' button is clickable.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNewTabsOpenOnClick">
+                  </a> <!-- testNewTabsOpenOnClick -->
+                  <span class="method-name">testNewTabsOpenOnClick</span>
+                  <em>
+(Verify clicking 'My Dreams' button opens two new tabs.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoSuite-class-passed -->
+        </div> <!-- panel DemoSuite -->
+        <div panel-name="test-xml-DemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\wingify\bhargavi\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DemoSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomepagePageTestSuite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomepagePageTestSuite --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DreamDiaryPageTestSuite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DreamDiaryPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DreamDiaryPageTestSuite --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DreamsTotalTestSuite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DreamsTotalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DreamsTotalTestSuite --&gt;
+&lt;/suite&gt; &lt;!-- DemoSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomepagePageTestSuite (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DreamDiaryPageTestSuite (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DreamsTotalTestSuite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoSuite');
+function tableData_DemoSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoaderDisappears')
+data.setCell(0, 2, 'tests.HomePageTest')
+data.setCell(0, 3, 3073);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAllRowsAreFilled')
+data.setCell(1, 2, 'tests.DreamDiaryPageTest')
+data.setCell(1, 3, 3039);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRowCount')
+data.setCell(2, 2, 'tests.DreamDiaryPageTest')
+data.setCell(2, 3, 3028);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDreamTypesAreValid')
+data.setCell(3, 2, 'tests.DreamDiaryPageTest')
+data.setCell(3, 3, 3023);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMyDreamsButtonIsClickable')
+data.setCell(4, 2, 'tests.HomePageTest')
+data.setCell(4, 3, 221);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLoaderIsVisible')
+data.setCell(5, 2, 'tests.HomePageTest')
+data.setCell(5, 3, 153);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMainContentIsVisible')
+data.setCell(6, 2, 'tests.HomePageTest')
+data.setCell(6, 3, 45);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testNewTabsOpenOnClick')
+data.setCell(7, 2, 'tests.HomePageTest')
+data.setCell(7, 3, 23);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRecurringDreamNames')
+data.setCell(8, 2, 'tests.DreamsTotalTest')
+data.setCell(8, 3, 6);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRecurringDreamsCount')
+data.setCell(9, 2, 'tests.DreamsTotalTest')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testTotalDreamsCount')
+data.setCell(10, 2, 'tests.DreamsTotalTest')
+data.setCell(10, 3, 3);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGoodDreamsCount')
+data.setCell(11, 2, 'tests.DreamsTotalTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testBadDreamsCount')
+data.setCell(12, 2, 'tests.DreamsTotalTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['DemoSuite']= { tableData: data, tableDiv: 'times-div-DemoSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-DemoSuite">
+              </div> <!-- times-div-DemoSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">6853 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoaderIsVisible</span>
+                <span class="method-start">6929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoaderDisappears</span>
+                <span class="method-start">7238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMainContentIsVisible</span>
+                <span class="method-start">10321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyDreamsButtonIsClickable</span>
+                <span class="method-start">10375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNewTabsOpenOnClick</span>
+                <span class="method-start">10606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10638 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DreamDiaryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12411 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">pageSetup</span>
+                <span class="method-start">16938 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRowCount</span>
+                <span class="method-start">16942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDreamTypesAreValid</span>
+                <span class="method-start">19974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAllRowsAreFilled</span>
+                <span class="method-start">23004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26050 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DreamsTotalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27341 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setupAndCalculateData</span>
+                <span class="method-start">31872 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGoodDreamsCount</span>
+                <span class="method-start">32420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBadDreamsCount</span>
+                <span class="method-start">32427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTotalDreamsCount</span>
+                <span class="method-start">32434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRecurringDreamsCount</span>
+                <span class="method-start">32442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRecurringDreamNames</span>
+                <span class="method-start">32448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32460 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
